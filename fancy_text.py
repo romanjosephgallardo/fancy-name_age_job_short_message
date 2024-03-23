@@ -1,3 +1,5 @@
+from pyfiglet import figlet_format
+
 # pseudocode
 
 # ask user to input name
@@ -10,12 +12,12 @@ age = input("Enter your age: ")
 dream_job = input("What is your dream job?: ")
 
 # print user's name in fancy way
-print(name)
+print(figlet_format(name))
 
 # print the age in fancy age
-print(age)
+print(figlet_format(age))
 
 # print dream job in a fancy way
-print(dream_job)
+print(figlet_format(dream_job))
 
 # provide a short message
