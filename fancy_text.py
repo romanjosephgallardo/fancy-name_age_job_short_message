@@ -1,6 +1,8 @@
 # pseudocode
 
 # ask user to input name
+name = input("Enter your name: ")
+
 # ask user to input age
 # ask user to input their dream job
 # print user's name in fancy way
