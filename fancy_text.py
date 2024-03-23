@@ -7,6 +7,8 @@ name = input("Enter your name: ")
 age = input("Enter your age: ")
 
 # ask user to input their dream job
+dream_job = input("What is your dream job?: ")
+
 # print user's name in fancy way
 # print the age in fancy age
 # print dream job in a fancy way
