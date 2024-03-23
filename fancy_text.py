@@ -12,12 +12,12 @@ age = input("Enter your age: ")
 dream_job = input("What is your dream job?: ")
 
 # print user's name in fancy way
-print(figlet_format(name))
+print(figlet_format(name, font="univers"))
 
 # print the age in fancy age
-print(figlet_format(age))
+print(figlet_format(age, font="univers"))
 
 # print dream job in a fancy way
-print(figlet_format(dream_job))
+print(figlet_format(dream_job, font="univers"))
 
 # provide a short message
