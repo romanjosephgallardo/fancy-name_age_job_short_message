@@ -1,8 +1,6 @@
 from pyfiglet import figlet_format
 from fancify_text import monospaced
 
-# pseudocode
-
 # ask user to input name
 name = input("Enter your name: ")
 
@@ -16,19 +14,24 @@ dream_job = input("What is your dream job?: ")
 print("=" * 100)
 
 # print user's name in fancy way
-print(monospaced("----- Your name is ----- ").center(100))
-print(figlet_format(name, font="univers", justify="center", width = 100))
+print()
+print(("----- Your name is ----- ").center(100))
+print(figlet_format(name, font="univers", justify="center", width = 101))
 
 # print the age in fancy age
 print(monospaced("----- And your age is -----").center(100))
-print(figlet_format(age, font="univers", justify="center", width = 100))
+print(figlet_format(age, font="univers", justify="center", width = 101))
 
 # print dream job in a fancy way
 print(monospaced("----- and your dream job is to become a(n) -----").center(100))
-print(figlet_format(dream_job, font="univers", justify="center", width = 100))
+print(figlet_format(dream_job, font="univers", justify="center", width = 101))
 
-# provide a short message
-print(monospaced("It won't be easy, but it'll be worth it :>").center(100))
+# print a short message in a fancy way
+print()
+print(("-" * 50).center(100))
+print(monospaced("It won't be easy, but it'll be worth it :> ...").center(100))
+print(("-" * 50).center(100))
+print()
 
 # add horizontal border 
 print("=" * 100)
