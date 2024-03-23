@@ -16,15 +16,15 @@ dream_job = input("What is your dream job?: ")
 print("=" * 100)
 
 # print user's name in fancy way
-print("----- Your name is ----- ")
+print(("----- Your name is ----- ").center(100))
 print(figlet_format(name, font="univers", justify="center", width = 100))
 
 # print the age in fancy age
-print("----- And your age is -----")
+print(("----- And your age is -----").center(100))
 print(figlet_format(age, font="univers", justify="center", width = 100))
 
 # print dream job in a fancy way
-print("----- Your dream job is to become a(n) -----")
+print(("----- and our dream job is to become a(n) -----").center(100))
 print(figlet_format(dream_job, font="univers", justify="center", width = 100))
 
 # provide a short message
