@@ -1,4 +1,7 @@
+# import pyfiglet module
 from pyfiglet import figlet_format
+
+# import fancify text module
 from fancify_text import monospaced
 
 # ask user to input name
